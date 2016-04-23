@@ -2,8 +2,8 @@
 Moves the page indicator to above the menu item which is the current page. Works only with a horizontal menu. 
 
 #Usage
-To use the page indicator, import the javascript file and configure it like below. 
-The page indicator should be outside the <li> elements of the menu, but within the <ul> of the menu so the correct offset can be calculated.   
+To use the page indicator, import the javascript file and configure it like below.  
+The page indicator should be outside the `<li>` elements of the menu, but within the `<ul>` of the menu so the correct offset can be calculated.   
 *Note: this works best with a Twitter Bootstrap navigation menu*
 
     <script src="pageindicator.js"></script>
