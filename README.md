@@ -9,8 +9,9 @@ The page indicator should be outside the `<li>` elements of the menu, but within
     <script src="pageindicator.js"></script>
     <!--This will configure the page indicator script -->
     <script>
-    	PageIndicator.config.indicator = ".page-indicator";	//default jquery selector for the indicator
-    	PageIndicator.config.menu = ".nav.navbar-nav>li>a"; //default jquery selector for the menu items
+    	PageIndicator.config.indicator = ".page-indicator";	//selector for the indicator
+    	PageIndicator.config.menu = ".nav.navbar-nav>li>a"; //selector for the menu items
+    	PageIndicator.config.fill_width = true; 			//will set the width of the indicator to the width of the menu item
     </script>
 	
 The menu jquery selector tag must select the link tag for the menu item. 
